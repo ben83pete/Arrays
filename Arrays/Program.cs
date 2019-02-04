@@ -21,7 +21,7 @@ namespace Arrays
             //Console.ReadKey();
 
             var pgm = new LookAtEachNumber();
-            pgm.BowlingGameScore();
+            pgm.TotalSales();
             Console.ReadKey();
         }
 
