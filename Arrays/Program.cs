@@ -10,13 +10,15 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            var pgm = new ArrayOfIntegers();
-            pgm.Add(0, 54);
-            pgm.Add(1, 25);
-            pgm.Add(2, 69);
-            pgm.Print();
+            //var pgm = new ArrayOfIntegers();
+            //pgm.Add(0, 42);
+            //pgm.Add(1, 25);
+            //pgm.Add(2, 97);
+            //pgm.Print();
 
-
+            var pgm = new LookAtEachNumber();
+            pgm.CheckNumbers();
+            Console.ReadKey();
         }
     }
 }
