@@ -13,8 +13,8 @@ namespace Arrays
         private int Sum()
         {
             var total = 0;
-                            // condition idx <10 is because the array only has 10 intgers
-            for (var idx =0; idx <10; idx++)
+                            
+            for (var idx =0; idx <10; idx++) // condition idx <10 is because the array only has 10 intgers
             {
                 total += integers[idx];
             }

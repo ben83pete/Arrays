@@ -16,9 +16,15 @@ namespace Arrays
             //pgm.Add(2, 97);
             //pgm.Print();
 
+            //var pgm = new LookAtEachNumber();
+            //pgm.CheckNumbers();
+            //Console.ReadKey();
+
             var pgm = new LookAtEachNumber();
-            pgm.CheckNumbers();
+            pgm.BowlingGameScore();
             Console.ReadKey();
         }
+
+
     }
 }
